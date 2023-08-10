@@ -1,4 +1,4 @@
-public class subby {
+public class Subby {
     public static String subString(String word,int index){
         String subString = "";
         for (int i = index; i < word.length(); i++) {

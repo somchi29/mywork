@@ -6,7 +6,7 @@ public class MultiplyTest{
     @Test
     public void testCanBeMultiplied(){
         Multiply multiply = new Multiply();
-         Multiply.multiply(3,-3);
+         Multiply.multiply(3,3);
         int total = 0;
         assertEquals(9,9,total);
 

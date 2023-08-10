@@ -7,7 +7,7 @@ public class task5 {
 
 
         chisom result = null;
-        System.out.println();
+        System.out.println(s);
 
     }
 }

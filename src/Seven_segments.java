@@ -1,10 +1,14 @@
-import java.util.Objects;
-
 public class Seven_segments {
     public static void main(String[] args) {
-        String[][] score = new String[][]{{"|", "|", "|", "|"}, {"|", "|", "|", "|"}, {"|", "|", "|", "|"}, {"|", "|", "|", "|"}, {"|", "|", "|", "|"}};
+        String[][] score = new String[][]{
+                {"*", "*", "*", "*"},
+                {"*", "*", "*", "*"},
+                {"*", "*", "*", "*"}, 
+                {"*", "*", "*", "*"},
+                {"*", "*", "*", "*"},
+        };
         for (int strings = 0; strings < score.length; strings++) {
-            for (int i = 1; i < score.length; i++) {
+            for (int i = 1; i < strings; i++) {
                 int j;
                 for (j = 0; j < score.length; j++) {
                     int k;
@@ -39,6 +43,8 @@ public class Seven_segments {
 //        }
 //    }
 //}
+
+
 
 
 
